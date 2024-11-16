@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           killercoda.com dark
+@namespace      https://github.com/penguintamer
+@version        1.0.0
+@description    Darken the jarring light backgrounds on Killercoda
+@author         penguintamer
+@license        GPL-3.0-or-later
+@supportURL     https://github.com/penguintamer/userstyle-killercoda-dark/issues
+==/UserStyle== */
+
+@-moz-document domain("killercoda.com") {
+  :root{
+    /* override vars */
+    --body-color: lightgrey;
+  }
+  html,
+  body {
+    background-color: black;
+  }
+  div>h2.headerSecond,
+  .scenario-content .scenario-content-header h2 {
+    background-color: #444;
+    color: #ccc
+  }
+  div.header-wrapper {
+    background-color: #222 !important;
+  }
+  div.split,
+  div.content-wrap {
+    background-color: black;
+    color: lightgrey;
+  }
+  code.click-copy {
+    background-color: #444 !important;
+    color: white !important;
+    border: 1px solid grey;
+  }
+  pre {
+    filter: invert();
+  }
+}
