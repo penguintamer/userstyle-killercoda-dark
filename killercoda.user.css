@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           killercoda.com dark
 @namespace      https://github.com/penguintamer
-@version        1.0.0
+@version        1.0.1
 @description    Darken the jarring light backgrounds on Killercoda
 @author         penguintamer
 @license        GPL-3.0-or-later
@@ -33,6 +33,10 @@
   code.click-copy {
     background-color: #444 !important;
     color: white !important;
+    border: 1px solid grey;
+  }
+  div.card-body {
+    background-color: #222;
     border: 1px solid grey;
   }
   pre {
