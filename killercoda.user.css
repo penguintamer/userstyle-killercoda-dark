@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           killercoda.com dark
 @namespace      https://github.com/penguintamer
-@version        1.1.0
+@version        1.2.0
 @description    Darken the jarring light backgrounds on Killercoda
 @author         penguintamer
 @license        GPL-3.0-or-later
@@ -19,7 +19,8 @@
     background-color: black;
   }
   div>h2.headerSecond,
-  .scenario-content .scenario-content-header h2 {
+  .scenario-content .scenario-content-header h2,
+  a.result.result h2 {
     background-color: #444;
     color: #ccc
   }
@@ -36,15 +37,16 @@
     color: white !important;
     border: 1px solid grey;
   }
-  div.card-body {
+  div.card-body,
+  div.search-more button.btn.search-more-action {
     background-color: #222;
-    color: white;
+    color: white !important;
   }
   a.card.existing:not(.killercoda) div.card-body img {
     filter: invert() hue-rotate(180deg);
   }
-  a.card {
-    /*background-color: black !important;*/
+  a.card,
+  a.result {
     border: 1px solid grey !important;
     background-color: #222 !important;
     border: 1px solid grey;
