@@ -1,11 +1,12 @@
 /* ==UserStyle==
 @name           killercoda.com dark
 @namespace      https://github.com/penguintamer
-@version        1.0.1
+@version        1.0.2
 @description    Darken the jarring light backgrounds on Killercoda
 @author         penguintamer
 @license        GPL-3.0-or-later
 @supportURL     https://github.com/penguintamer/userstyle-killercoda-dark/issues
+@updateURL      https://github.com/penguintamer/userstyle-killercoda-dark/raw/refs/heads/main/killercoda.user.css
 ==/UserStyle== */
 
 @-moz-document domain("killercoda.com") {
