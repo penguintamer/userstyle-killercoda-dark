@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           killercoda.com dark
 @namespace      https://github.com/penguintamer
-@version        1.0.2
+@version        1.1.0
 @description    Darken the jarring light backgrounds on Killercoda
 @author         penguintamer
 @license        GPL-3.0-or-later
@@ -38,9 +38,24 @@
   }
   div.card-body {
     background-color: #222;
+    color: white;
+  }
+  a.card.existing:not(.killercoda) div.card-body img {
+    filter: invert() hue-rotate(180deg);
+  }
+  a.card {
+    /*background-color: black !important;*/
+    border: 1px solid grey !important;
+    background-color: #222 !important;
     border: 1px solid grey;
+    color: white !important;
   }
   pre {
     filter: invert();
+  }
+  input.form-control,
+  input.form-control.search-phrase{
+    background-color: #222;
+    color: white;
   }
 }
